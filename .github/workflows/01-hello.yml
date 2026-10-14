@@ -17,3 +17,11 @@ jobs:
             - name: Ver archivos disponibles
               run: ls -alis
 
+    repo-files:
+        runs-on: ubuntu-24.04
+        steps:
+            - name: Descaqrgar código del proyecto
+              uses: actions/checkout@v6
+              
+
+
