@@ -20,8 +20,11 @@ jobs:
     repo-files:
         runs-on: ubuntu-24.04
         steps:
-            - name: Descaqrgar código del proyecto
+            - name: Descargar código del proyecto
               uses: actions/checkout@v6
-              
+
+            - name: ver archivos disponibles
+              run: ls -la
+
 
 
