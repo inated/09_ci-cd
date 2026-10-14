@@ -1,0 +1,19 @@
+name: 01 - Hello
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    hello:
+        runs-on: ubuntu-24.04
+        steps:
+            - name: Paso Saludar
+              run: echo "Hola desde Github Actions"
+
+            - name: Ver fecha del push
+              run: date
+
+            - name: Ver archivos disponibles
+              run: dir
+
