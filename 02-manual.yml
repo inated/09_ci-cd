@@ -1,16 +1,17 @@
 name: 02 - Manual
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
-  runs-on: ubuntu-24.04
-  steps:
-    - name: Paso Saludar
-      run: echo "Hola desde Github Actions"
+  manual:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Paso Saludar
+        run: echo "Hola desde Github Actions"
 
-    - name: Ver fecha del push
-      run: date
+      - name: Ver fecha del push
+        run: date
 
-    - name: Ver archivos disponibles
-      run: ls -alis
+      - name: Ver archivos disponibles
+        run: ls -alis
