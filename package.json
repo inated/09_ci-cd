@@ -3,17 +3,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev:frontend": "pnpm --filter @jscamp-ci/frontend dev",
-    "dev:backend": "pnpm --filter @jscamp-ci/backend dev",
-    "lint:frontend": "pnpm --filter @jscamp-ci/frontend lint",
-    "lint:backend": "pnpm --filter @jscamp-ci/backend lint",
-    "lint": "pnpm -r lint",
-    "test:frontend": "pnpm --filter @jscamp-ci/frontend test",
-    "test:backend": "pnpm --filter @jscamp-ci/backend test",
-    "test": "pnpm -r test",
-    "build:frontend": "pnpm --filter @jscamp-ci/frontend build",
-    "build:backend": "pnpm --filter @jscamp-ci/backend build",
-    "build": "pnpm -r build",
-    "start:backend": "pnpm --filter @jscamp-ci/backend start"
+    "dev:frontend": "npm --filter @jscamp-ci/frontend dev",
+    "dev:backend": "npm --filter @jscamp-ci/backend dev",
+    "lint:frontend": "npm --filter @jscamp-ci/frontend lint",
+    "lint:backend": "npm --filter @jscamp-ci/backend lint",
+    "lint": "npm -r lint",
+    "test:frontend": "npm --filter @jscamp-ci/frontend test",
+    "test:backend": "npm --filter @jscamp-ci/backend test",
+    "test": "npm -r test",
+    "build:frontend": "npm --filter @jscamp-ci/frontend build",
+    "build:backend": "npm --filter @jscamp-ci/backend build",
+    "build": "npm -r build",
+    "start:backend": "npm --filter @jscamp-ci/backend start"
   }
 }
